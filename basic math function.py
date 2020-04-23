@@ -25,7 +25,8 @@ elif choice == 4:
     print(">>>>>>>>  Division  <<<<<<<<<")
     n1 = int(input("Enter a number: "))
     n2 = int(input("Enter a Number: "))
-    div = n1 + n2
-    print("Result: ", div)
+    div = n1 / n2  # '/' gives float answer
+    div2 = n1 // n2  # '//' gives integer answer
+    print("Result: ", div, div2)
 else:
     print("!!!!!!!  Wrong Choice  !!!!!!!!!")
